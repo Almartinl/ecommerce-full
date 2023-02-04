@@ -1,0 +1,95 @@
+
+*{
+    box-sizing: border-box;
+}
+
+
+
+h1{ display: inline;}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: "Mulish", serif;
+    color:darkslategrey;
+    font-weight: bold;
+}
+
+h1{font-size: 48.43px;}
+h2{font-size: 39.06px;}
+h3{font-size: 31.25px;}
+h4{font-size: 25.00px;}
+h5,.lead{font-size: 20.00px;}
+h6,body{font-size: 16px;}
+small{font-size: 12.80px;}
+
+button{
+    border: none;
+}
+
+
+.header-inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 8px;
+    margin-top: 24px;
+}
+
+.proceso-de-pago{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+
+
+.buscar input{
+    display: inline-block;
+    padding: 18px;
+    width: 85vh;
+    max-width: 100%;
+    border-radius: 16px;
+    border: none;
+    background-color: var(--griss1); 
+
+}
+
+.buscar input:hover{
+    border: 2px solid var(--primario-claro);
+}
+
+a{
+    text-decoration: none;
+}
+
+.carrito a{
+    display: inline-block;
+    position: relative;
+    padding: 18px 24px;
+    border-radius: 16px;
+    margin: 18px;
+    background-color: var(--griss1);
+    color:var(--negro);
+    transition: all 0.3s;
+}
+
+.carrito a:hover{
+    background-color: var(--secundario);
+    color: var(--primario);
+}
+
+
+.contador {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    top: -16px;
+    right: -16px;
+    width: 32px;
+    height: 32px;
+    background: var(--primario-claro);
+    border-radius: 50%;
+    color: var(--blanco);
+    
+}

@@ -1,0 +1,101 @@
+.finalizarpago {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 0px;
+  gap: 40px;
+}
+
+.envio {
+  width: 60%;
+}
+
+.fin-nombre-apellido {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 24px;
+}
+
+.fin-resumen-pedido {
+  display: flex;
+  flex-direction: column;
+  border: 2px solid var(--primario-claro);
+  padding: 48px 32px;
+  margin: 24px;
+  border-radius: 16px;
+}
+
+.articulo-pedido {
+  margin-top: 24px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.fin-articulo {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.fin-articulo input {
+  text-align: center;
+  width: 20%;
+  padding: 8px;
+  border-radius: 16px;
+  border: none;
+  background-color: var(--griss1);
+}
+
+form.direccion-envio input,
+form.direccion-envio select {
+  padding: 18px;
+  width: 100%;
+  border-radius: 16px;
+  border: none;
+  background-color: var(--griss1);
+  margin-top: 8px;
+}
+
+form.direccion-envio .fin-nombre {
+  float: left;
+  width: 48%;
+}
+
+form.direccion-envio .fin-apellidos {
+  float: right;
+  width: 48%;
+}
+
+form.direccion-envio .fin-telefono {
+  float: left;
+  width: 48%;
+}
+
+form.direccion-envio .fin-email {
+  float: right;
+  width: 48%;
+}
+
+form.direccion-envio .fin-calle {
+  float: left;
+  width: 64%;
+}
+
+form.direccion-envio .fin-numero {
+  float: right;
+  width: 32%;
+}
+
+form.direccion-envio .fin-provincia {
+  float: left;
+  width: 64%;
+}
+
+form.direccion-envio .fin-codigo-postal {
+  float: right;
+  width: 32%;
+}

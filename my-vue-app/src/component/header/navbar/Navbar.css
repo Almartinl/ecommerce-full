@@ -1,0 +1,28 @@
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 16px;
+    padding-inline-start: 0;
+}
+
+.menu li{
+    display: inline;
+}
+
+.btn-nav{
+    background-color: var(--blanco);
+    color: var(--negro);
+    padding-left: 0;
+    padding-right: 32px;
+    transition: all 0.3s;
+
+}
+
+.btn-nav:hover{
+    text-decoration: 2px underline var(--primario-claro);
+}
+
+.menu .disable{
+    display: none
+}

@@ -1,0 +1,134 @@
+footer {
+    background-image: url(../../imagenes/cesped1.jpg);
+    background-size: cover;
+    margin-top: var(--l);
+    color: var(--blanco);
+    padding: 80px 0px;
+    position: relative;
+}
+
+.inicio{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    bottom: 16px;
+    right: 16px;
+    width: 64px;
+    height: 64px;
+    background-color: var(--secundario);
+    border-radius: 50%;
+    color: var(--blanco);
+    background-image: url(../../imagenes/pelota-padel.png);
+    background-position: center;
+    background-size: 64px;
+    
+}
+
+.inicio span{
+    font-size: 80px;
+    margin-top: 24px;
+}
+
+.menu-footer {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: flex-start;
+    flex-direction: row;
+}
+
+.footer-all {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.newsletter {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    width: 40%;
+}
+
+.news {
+    display: flex;
+    margin-bottom: 48px;
+    flex-direction: column;
+    align-content: center;
+    align-items: stretch;
+}
+
+.news h3{
+    margin-top: 24px;
+    text-align: center;
+    color: var(--blanco);
+}
+
+.input-news {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-direction: row;
+    margin-top: 64px;
+}
+
+.news form input[type="email"] {
+
+    padding: 18px;
+    width: 100%;
+    border-radius: 16px 0 0 16px;
+    border: none;
+    background-color: var(--griss1);
+}
+
+.botones.btn-sub{
+    margin: 0;
+    border-radius: 0 16px 16px 0;
+    text-align: center;
+    padding: 18px;
+    background-color: var(--griss2);
+    color: var(--negro); 
+}
+
+.botones.btn-sub:hover{
+    color: var(--blanco);
+}
+
+.chk-pol {
+    margin-top: 16px;
+}
+
+
+.footer-all-menu {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: baseline;
+    max-width: 45%;
+    margin-bottom: 128px;
+}
+
+footer a{
+    color: var(--blanco);
+}
+
+footer .menu-footer a:hover{
+    color: chartreuse;
+}
+
+.logo-footer {
+    margin-bottom: 64px;
+}
+
+.logo-footer h1{
+    color: var(--blanco)
+}
+
+.redes *{
+    color: var(--blanco);
+}

@@ -1,0 +1,74 @@
+.card:hover{
+    border-color: var(--primario);
+    
+}
+.wrap .articulos{
+    margin-top: 48px;
+}
+
+
+
+.card {
+    display: flex;
+    border-radius: 16px;
+    padding: 16px;
+    max-width: 20vw;
+    align-items: center;
+    flex-direction: column;
+    transition: all 0.1s;
+    box-shadow: 0 8px 16px var(--griss3);
+}
+
+@media (max-width: 500px){
+    .card{
+        max-width: none;
+    }
+}
+
+.card img{
+    width: 100%;
+    max-width: 300px;
+
+}
+
+.card-desc {
+    display: flex;
+    flex-direction: column;
+    width: -webkit-fill-available;
+    align-items: flex-start;
+    align-content: center;
+    justify-content: center;
+}
+
+.card-desc .titulo{
+    display: flex;
+    width: -webkit-fill-available;
+    justify-content: space-between;
+}
+
+.btn-card {
+    display: flex;
+    align-items: center;
+    width: -webkit-fill-available;
+    justify-content: space-between;
+}
+
+.grupo-precio {
+    display: flex;
+}
+
+.nombre{
+    display: inline-block;
+}
+.numero-precio{
+    display: inline-block;
+}
+.icono-moneda{
+    display: inline-block;
+}
+div.rating .filled{
+    color: #0582CA;
+}
+div.rating .filled-off{
+    color: #8D9FA8;
+}

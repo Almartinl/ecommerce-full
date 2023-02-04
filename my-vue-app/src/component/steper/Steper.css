@@ -1,0 +1,18 @@
+.wrap.header-inner{
+    margin-top: 24px;
+}
+.activo {
+    background-color: var(--blanco);
+    color: var(--secundario);
+    border: 1px solid var(--secundario);
+    box-shadow: 0px 0px 4px 1px;
+}
+.activo:hover{
+    background-color: var(--blanco);
+    color: var(--secundario);
+}
+
+.inactivo:hover{
+    background-color: var(--griss1);
+    color: var(--negro);
+}

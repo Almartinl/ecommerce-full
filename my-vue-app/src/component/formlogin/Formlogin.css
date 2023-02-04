@@ -1,0 +1,33 @@
+.formulario {
+    display: flex;
+    margin: auto;
+    max-width: 100%;
+}
+
+.formulario form input{
+    padding: 18px;
+    width: 100%;
+    border-radius: 16px;
+    border: none;
+    background-color: var(--griss1); 
+    margin-top: 8px;
+
+}
+
+form a.botones-especiales {
+    width: 100%;
+    text-align: center;
+    transition: all 0.3s;
+        display: inline-block;
+        padding: 8px 24px;
+        border-radius: 16px;
+        margin: 24px auto;
+        background-color: var(--primario-claro);
+        color: white;
+
+}
+
+form a.botones-especiales:hover{
+    background-color: var(--primario);
+    color: var(--secundario);
+}

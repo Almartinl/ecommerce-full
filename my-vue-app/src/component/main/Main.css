@@ -1,0 +1,58 @@
+.all-articulos {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+}
+
+.botones{
+    display: inline-block;
+    padding: 8px 24px;
+    border-radius: 16px;
+    margin: 4px;
+    background-color: var(--griss1);
+    color: var(--negro);
+}
+
+.botones:hover{
+    background-color: var(--primario-claro);
+    color: var(--blanco);
+}
+
+.botones-especiales{
+    display: inline-block;
+    padding: 8px 24px;
+    border-radius: 16px;
+    margin: 24px 0;
+    background-color: var(--primario-claro);
+    color: white;
+}
+
+.botones-especiales:hover{
+    background-color: var(--primario);
+    color: var(--secundario);
+}
+
+section.all-cards {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.testimonios {
+    margin: 128px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.testimonio-titulo {
+    width: 50vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
